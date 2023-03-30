@@ -1,0 +1,19 @@
+{
+  "name": "tugas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.4",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "latest",
+    "cypress-iframe": "^1.0.1"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}
